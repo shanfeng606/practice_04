@@ -1,0 +1,104 @@
+/* 全局设置 */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix:after { 
+    content: "";
+    display: table;
+    clear: both 
+} 
+ul{
+    list-style-type: none;
+}
+
+input{
+    background: none;
+    outline: none;
+    border:none
+}
+
+
+
+#wrap{
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+
+.title{
+    font-size:22px;
+    color: #0080FF;
+}
+
+/* 下拉列表容器 */
+.selector{
+    margin: 5px auto 0;
+    width: 400px;
+}
+
+#selector-content{
+    border:1px  #0080FF solid;
+    width: 368px;
+    height:28px;
+    float: left;
+    line-height: 28px;
+}
+.selector-arow{
+    background-color: #0080FF;
+    color: #fff;
+    width: 30px;
+    height:30px;
+    float: right;
+    line-height: 30px;
+}
+
+/* 下拉列表内容 */
+.selector-items{
+    margin:0 auto;
+    width: 398px;
+    height: auto;
+    border:1px  #0080FF solid;
+}
+
+.selector-search{   
+    border:1px solid #666;
+    width:390px;
+    border-radius: 3px;
+    
+}
+.result{
+    display: block;
+    margin: 0 auto;
+
+}
+
+.result ul{
+    color:red;
+    text-align: left;
+    margin: 10px 10px;
+}
+
+.result ul li{
+    color:#777;
+    padding: 0px 10px;
+}
+
+.result ul li:hover{
+    background-color: #0080FF ;
+    color:#fff;
+}
+
+
+/* 点击选项后返回的文字 */
+#out{
+    text-align: center;
+    margin: 10px auto;
+}
+
+.mousedown{
+    background-color: #0080FF ;
+    color:#fff !important;
+}
